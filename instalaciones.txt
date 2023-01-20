@@ -1,0 +1,39 @@
+Archivo para documentar las instalaciones necesarias
+
+
+Proyecto Control de Gastos
+Instalar Nodejs bajando de la pagina https://nodejs.org/es/
+npm init vite@latest
+--control-gastos
+--react
+--javascripts
+
+cd .\control-gastos\
+npm install    
+
+2) npm run dev 
+http://localhost:5173/
+
+
+3) Agregar hoja de estilos externa normalize.css directo de la url
+buscando en el navegador normalize.css luego pulsando donwload y de allí copiamos la url 
+
+https://necolas.github.io/normalize.css/8.0.1/normalize.css
+
+4) Instalar una fuente externa de letras al proyectop en este caso de google fonts, buscamos la fuente Lato 
+  y seleccinamos las de 400, 700 y 900, luego copiamos los links que nos genera que ya los coloco acá abajo
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+
+
+
+
+Intalar telwindcss y otras librerias  
+npm i -D tailwindcss postcss autoprefixer
+
+
+atajos
+
+rafce + enter --> genera el codigo para un componnte 
