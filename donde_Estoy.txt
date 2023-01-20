@@ -1,4 +1,5 @@
 --21/01/2023--
+99 Mostrando el Componente de Gastos si el presupuesto es válido
 98 Validando el Presupuesto
 97 Creando el Formulario de Presupuesto
 96 Creando el Componente de Nuevo Presupuesto
