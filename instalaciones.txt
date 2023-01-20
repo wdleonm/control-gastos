@@ -34,6 +34,6 @@ Intalar telwindcss y otras librerias
 npm i -D tailwindcss postcss autoprefixer
 
 
-atajos
+-- ****** Atajos ****** --
 
 rafce + enter --> genera el codigo para un componnte 
