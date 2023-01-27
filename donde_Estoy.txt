@@ -1,3 +1,6 @@
+--27/01/2023--
+100 Primeros Pasos con el Componente de Control de Presupuesto
+
 --21/01/2023--
 99 Mostrando el Componente de Gastos si el presupuesto es válido
 98 Validando el Presupuesto
