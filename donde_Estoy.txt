@@ -1,3 +1,6 @@
+-- 28/01/2023--
+108 Validando los Gastos
+
 --27/01/2023--
 107 Creando el State para los Gastos
 106 Añadiendo el Formulario de Gastos

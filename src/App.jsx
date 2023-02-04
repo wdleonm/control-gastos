@@ -11,6 +11,8 @@ function App() {
   const [modal, setModal] = useState(false);
   const [animarModal, setAnimarModal] = useState(false);
 
+  const [gastos, setGastos] = useState([]);
+
   const handleNuevoGasto = () => {
     //console.log('Diste click para añadir un nuevo gasto')
     setModal(true)
@@ -18,6 +20,11 @@ function App() {
     setTimeout(() => {
       setAnimarModal(true)
     }, 500 );
+  }
+
+
+  const guardarGasto = gasto => {
+    console.log(gasto);
   }
 
 
@@ -46,6 +53,7 @@ function App() {
           setModal={setModal}
           animarModal={animarModal}
           setAnimarModal={setAnimarModal}
+          guardarGasto= {guardarGasto}
        />}
 
     </div>
