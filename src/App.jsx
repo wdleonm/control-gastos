@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Header from './components/Header'
+import ListadoGasto from './components/ListadoGasto'
 import Modal from './components/Modal'
 import { generarId } from './helpers'
 import IconoNuevoGasto from './img/nuevo-gasto.svg'
@@ -38,33 +39,41 @@ function App() {
   return (
     <div>
       <Header
-        presupuesto= {presupuesto}
-        setPresupuesto= {setPresupuesto}
+        presupuesto={presupuesto}
+        setPresupuesto={setPresupuesto}
         isValidPresupuesto={isValidPresupuesto}
         setIsValidPresupuesto={setIsValidPresupuesto}
       />
 
-      {isValidPresupuesto ? (
-          <div className='nuevo-gasto'>
-          <img
-            src={IconoNuevoGasto}
-            alt='icono nuevo gasto'
-            onClick={handleNuevoGasto}
-          />
+      {isValidPresupuesto && (
+        <>
+          <main>
+              <ListadoGasto
+                gastos={gastos}
+              />
+             
+          </main>
 
-        </div>
+          <div className="nuevo-gasto">
+            <img
+              src={IconoNuevoGasto}
+              alt="icono nuevo gasto"
+              onClick={handleNuevoGasto}
+            />
+          </div>
+        </>
+      )}
 
-      ) : null}
-
-      {modal && <Modal
+      {modal && (
+        <Modal
           setModal={setModal}
           animarModal={animarModal}
           setAnimarModal={setAnimarModal}
-          guardarGasto= {guardarGasto}
-       />}
-
+          guardarGasto={guardarGasto}
+        />
+      )}
     </div>
-  )
+  );
 }
 
 export default App

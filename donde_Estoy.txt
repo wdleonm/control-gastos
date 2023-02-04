@@ -1,4 +1,5 @@
 -- 28/01/2023--
+110 Creando el Componente para Crear un Gasto
 109 Creando una función para generar un ID único y Añadiendo Gastos al State
 108 Validando los Gastos
 
