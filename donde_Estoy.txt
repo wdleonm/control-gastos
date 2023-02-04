@@ -1,4 +1,5 @@
 -- 28/01/2023--
+109 Creando una función para generar un ID único y Añadiendo Gastos al State
 108 Validando los Gastos
 
 --27/01/2023--
